@@ -1,5 +1,6 @@
-export const Img=()=>{
+export const Img=(prop)=>{
+    const{src,width,height,alt}=prop;
     return(
-        <img src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg" width={200} height={200} alt=""/>
+        <img src={src} width={width} height={height} alt={alt}/>//<img {...prop}/>
     )
-}
+};
