@@ -22,7 +22,7 @@ function TableComponent(prop) {
                 <tr>
                     <td>{id}</td>
                     <td>{name}</td>
-                    <td><img src={image}/></td>
+                    <td><img src={image} alt={name} width={200} height={200}/></td>
                    
                     <td>
                         {
@@ -32,11 +32,14 @@ function TableComponent(prop) {
                                 )
                             })
                     }</td>
-                    <td>{instructions.map((eachInstruction)=>{
-                        return(
-                        <>{eachInstruction.instructions}
-                        </>
-                    )})}</td>
+                    <td>
+                        {
+                        instructions.map((eachInStruction,ind)=>{
+                                return(
+                                    <p>{`${ind+1}.${eachInStruction}`}</p>
+                                )
+                            })
+                    }</td>
                 </tr>
                 </>
             )

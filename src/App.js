@@ -3,6 +3,7 @@
 // import { Stack } from 'react-bootstrap';
 import './App.css';
 import RecepieTable from './components/revison_React/recepieTable_data';
+import UseEffectExample1 from './useEffect/use_effect';
 // import ControlledForm from './components/formsCon_UnCon/controlled_Forms';
 // import FormUncontrolled from './components/formsCon_UnCon/uncontrolled';
 // import FormUncontrolled from './components/formsCon_UnCon/uncontrolled';
@@ -159,7 +160,8 @@ import RecepieTable from './components/revison_React/recepieTable_data';
 // }
 
 import Stack from './Navigations/stack';
-// import UseEffectExample2 from './useEffect/use_effect2';
+import UseEffectExample2 from './useEffect/use_effect2';
+import UseEffectExample3 from './useEffect/UseEffectExample3';
 // import UserForm from './form_Table/formreact';
 // import TableReact from './React_BootStrap/Bootstrap_Tbale';
 // import DemoCarousel from './React_BootStrap/caurosal';
@@ -174,14 +176,17 @@ export default function App() {
     <>
     {/* <ControlledForm/> */}
     {/* <FormUncontrolled/> */}
-    {/* <Stack/> */}
+    <Stack/>
     {/* <UserForm/> */}
     {/* <DemoCarousel/> */}
     {/* <FormReact/>
     <TableReact/> */}
-    {/* <UseEffectExample2/> */}
+    <UseEffectExample3/>
+    <UseEffectExample2/>
+    <UseEffectExample1/>
+    
 
-    <RecepieTable/>
+    {/* <RecepieTable/> */}
     
 
     
