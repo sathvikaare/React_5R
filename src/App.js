@@ -2,6 +2,7 @@
 // import { AppBar } from '@mui/material';
 // import { Stack } from 'react-bootstrap';
 import './App.css';
+import RecepieTable from './components/revison_React/recepieTable_data';
 // import ControlledForm from './components/formsCon_UnCon/controlled_Forms';
 // import FormUncontrolled from './components/formsCon_UnCon/uncontrolled';
 // import FormUncontrolled from './components/formsCon_UnCon/uncontrolled';
@@ -158,6 +159,8 @@ import './App.css';
 // }
 
 import Stack from './Navigations/stack';
+// import UseEffectExample2 from './useEffect/use_effect2';
+// import UserForm from './form_Table/formreact';
 // import TableReact from './React_BootStrap/Bootstrap_Tbale';
 // import DemoCarousel from './React_BootStrap/caurosal';
 // import FormReact from './React_BootStrap/form_table';
@@ -171,10 +174,16 @@ export default function App() {
     <>
     {/* <ControlledForm/> */}
     {/* <FormUncontrolled/> */}
-    <Stack/>
+    {/* <Stack/> */}
+    {/* <UserForm/> */}
     {/* <DemoCarousel/> */}
     {/* <FormReact/>
     <TableReact/> */}
+    {/* <UseEffectExample2/> */}
+
+    <RecepieTable/>
+    
+
     
    
     

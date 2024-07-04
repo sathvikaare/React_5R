@@ -26,8 +26,6 @@ function Stack(){
             <Route path="/:category/:product_id/info" element={<ProductDetails/>}/>
         </Routes>
         </BrowserRouter>
-        
-        
     );
 }
 export default Stack;
