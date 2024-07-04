@@ -22,7 +22,7 @@ function TableComponent(prop) {
                 <tr>
                     <td>{id}</td>
                     <td>{name}</td>
-                    <td><img src={image}/></td>
+                    <td><img src={image} width={200} alt={name} height={200}/></td>
                    
                     <td>
                         {
