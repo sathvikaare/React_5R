@@ -2,8 +2,8 @@
 // import { AppBar } from '@mui/material';
 // import { Stack } from 'react-bootstrap';
 import './App.css';
-import DigitalClock from './components/revison_React/DigitalClock';
-// import RecepieTable from './components/revison_React/recepieTable_data';
+// import DigitalClock from './components/revison_React/DigitalClock';
+
 // import UseEffectExample33 from './useEffect/useEffectExample33';
 // import ControlledForm from './components/formsCon_UnCon/controlled_Forms';
 // import FormUncontrolled from './components/formsCon_UnCon/uncontrolled';
@@ -162,13 +162,11 @@ import DigitalClock from './components/revison_React/DigitalClock';
 
 // import Stack from './Navigations/stack';
 // import UseEffectExample2 from './useEffect/use_effect2';
-
-// import UseEffectExample2 from './useEffect/use_effect2';
 // import UserForm from './form_Table/formreact';
 // import TableReact from './React_BootStrap/Bootstrap_Tbale';
 // import DemoCarousel from './React_BootStrap/caurosal';
 // import FormReact from './React_BootStrap/form_table';
-
+import DigitalClock from './components/revison_React/DigitalClock';
  
 export default function App() {
   return (
