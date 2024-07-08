@@ -2,6 +2,7 @@
 // import { AppBar } from '@mui/material';
 // import { Stack } from 'react-bootstrap';
 import './App.css';
+import LoginSignup from './components/revison_React/login_signup';
 // import DigitalClock from './components/revison_React/DigitalClock';
 
 // import UseEffectExample33 from './useEffect/useEffectExample33';
@@ -166,7 +167,8 @@ import './App.css';
 // import TableReact from './React_BootStrap/Bootstrap_Tbale';
 // import DemoCarousel from './React_BootStrap/caurosal';
 // import FormReact from './React_BootStrap/form_table';
-import DigitalClock from './components/revison_React/DigitalClock';
+// import DigitalClock from './components/revison_React/DigitalClock';
+// import WhetherApp from './components/revison_React/WhetherApp';
  
 export default function App() {
   return (
@@ -185,7 +187,9 @@ export default function App() {
     {/* <UseEffectExample33/> */}
 
     {/* <RecepieTable/> */}
-    <DigitalClock/>
+    {/* <DigitalClock/> */}
+    {/* <WhetherApp/> */}
+    <LoginSignup/>
     
 
     
