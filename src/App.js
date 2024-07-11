@@ -2,7 +2,9 @@
 // import { AppBar } from '@mui/material';
 // import { Stack } from 'react-bootstrap';
 import './App.css';
-import LoginSignup from './components/revison_React/login_signup';
+import TheContext from './components/ContextApi/TheContext';
+
+// import LoginSignup from './components/revison_React/login_signup';
 // import DigitalClock from './components/revison_React/DigitalClock';
 
 // import UseEffectExample33 from './useEffect/useEffectExample33';
@@ -137,11 +139,7 @@ import LoginSignup from './components/revison_React/login_signup';
 //       {/* <ButtonComp/>
 //       <TodoComponent /> */}
 //       {/* <ProductListing/> */}
-
-      
-      
 //        {/* <MountingPhase favcolor={"red"} /> */}
-       
 //       </>
 //     );
 //   }
@@ -161,7 +159,7 @@ import LoginSignup from './components/revison_React/login_signup';
 //   );
 // }
 
-// import Stack from './Navigations/stack';
+import Stack from './Navigations/stack';
 // import UseEffectExample2 from './useEffect/use_effect2';
 // import UserForm from './form_Table/formreact';
 // import TableReact from './React_BootStrap/Bootstrap_Tbale';
@@ -178,7 +176,7 @@ export default function App() {
     <>
     {/* <ControlledForm/> */}
     {/* <FormUncontrolled/> */}
-    {/* <Stack/> */}
+    <Stack/>
     {/* <UserForm/> */}
     {/* <DemoCarousel/> */}
     {/* <FormReact/>
@@ -189,11 +187,12 @@ export default function App() {
     {/* <RecepieTable/> */}
     {/* <DigitalClock/> */}
     {/* <WhetherApp/> */}
-    <LoginSignup/>
-    
+     {/* <LoginSignup/> */}
+   
 
     
-   
+   {/* context api example */}
+   {/* <TheContext/> */}
     
     </>
   )

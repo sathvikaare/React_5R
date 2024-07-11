@@ -1,23 +1,26 @@
-import React from "react";
+import UseEffectExample1 from "../useEffect/use_effect";
+import UseEffectExample2 from "../useEffect/use_effect2";
 import {useState} from "react"
-import NavBar from "../components/navBar/navbar";
 import { Btn } from "../components/button";
 import { Link } from "react-router-dom";
 import axios from "axios"
-import UseEffectExample1 from "../useEffect/use_effect";
-import UseEffectExample2 from "../useEffect/use_effect2";
-function HomeScreen(){
-    return(
-        <div>
-          <NavBar/>
-          <h2>welcome to  Home screen</h2>
-          <UseEffectExample2/>
-          <UseEffectExample1/>
+import React, { useContext } from "react";
+import NavBar from "../components/navBar/navbar";
+import { ProfileWrapper } from "../Navigations/stack";
 
+function HomeScreen() {
+  const sharedData = useContext(ProfileWrapper);
+  console.log(sharedData, "sharedData");
 
-
-      
-        </div>
-    )
+  return (
+    <div>
+      <NavBar />
+      <h2>Welcome to Home Screen, {sharedData.profileInfo.name}: {sharedData.profileInfo.salary}</h2>
+      {/* <UseEffectExample2/>
+          <UseEffectExample1/> */}
+          <h2>{sharedData.counter}</h2>
+    </div>
+  );
 }
+
 export default HomeScreen;

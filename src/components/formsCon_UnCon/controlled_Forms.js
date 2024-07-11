@@ -16,11 +16,8 @@ export default function ControlledForm() {
     event.preventDefault();
     if(!passwordError && !userNameError){
         asynPostCall(username,password);
-
     }
-
   };
-
   const asynPostCall = (email, password) => {
     fetch("https://dummyjson.com/auth/login", {
       method: "POST",
