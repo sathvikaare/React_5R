@@ -1,12 +1,12 @@
 // import logo from './logo.svg';
 // import { AppBar } from '@mui/material';
 // import { Stack } from 'react-bootstrap';
-import './App.css';
-import TheContext from './components/ContextApi/TheContext';
 
+import './App.css';
+// import Reducerbooking from './components/useReducer_hook/useReducer_booking';
+// import TheContext from './components/useContextApi/TheContext';
 // import LoginSignup from './components/revison_React/login_signup';
 // import DigitalClock from './components/revison_React/DigitalClock';
-
 // import UseEffectExample33 from './useEffect/useEffectExample33';
 // import ControlledForm from './components/formsCon_UnCon/controlled_Forms';
 // import FormUncontrolled from './components/formsCon_UnCon/uncontrolled';
@@ -16,14 +16,12 @@ import TheContext from './components/ContextApi/TheContext';
 // import ProductListing from './components/class-components/productlisting/productlisting';
 // import Counter1 from './components/useState/usestate';
 // import ExampleArrays from './components/useState/usestateArray';
-
 // import MountingPhase from './components/mounting';
 // import TodoComponent from './components/class-components/todo/todo';
 // import CustomList from './components/customlist/customlist';c
 // import { recipeData } from './components/javascript/recepiedata';
 // import CardExample from './components/cards/cards';
 // import CircleCom from './components/circle/circle';
-
 // import PropEx from './components/props/props';
 // import ArrayList from './components/arrayListBraces';
 // import { Card } from './components/card';
@@ -80,7 +78,6 @@ import TheContext from './components/ContextApi/TheContext';
 // }
 
 // function App(){
- 
 //   return(
 //     <>
 //     {
@@ -96,7 +93,6 @@ import TheContext from './components/ContextApi/TheContext';
 //         )
 //       })
 //     }
-
 //     </>
 //   );
 // }
@@ -127,13 +123,10 @@ import TheContext from './components/ContextApi/TheContext';
 //             )
 //           })
 //         }
-
 //     </>
-    
 //   )}
 
 //   function App(){
- 
 //     return(
 //       <>
 //       {/* <ButtonComp/>
@@ -183,7 +176,6 @@ export default function App() {
     <TableReact/> */}
     {/* <UseEffectExample2/> */}
     {/* <UseEffectExample33/> */}
-
     {/* <RecepieTable/> */}
     {/* <DigitalClock/> */}
     {/* <WhetherApp/> */}
@@ -193,7 +185,8 @@ export default function App() {
     
    {/* context api example */}
    {/* <TheContext/> */}
-    
+{/* <Reducerbooking/> */}
+   
     </>
   )
 }

@@ -17,6 +17,7 @@ function Stack(){
     })
     const [counter,setCounter]=useState(100);
 
+    
     const changeName=(name)=>{
         setProfileInfo({...profileInfo,name:name})
     }
