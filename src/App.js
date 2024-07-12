@@ -3,6 +3,7 @@
 // import { Stack } from 'react-bootstrap';
 
 import './App.css';
+import Navbar from './components/navBar/navbar';
 // import Reducerbooking from './components/useReducer_hook/useReducer_booking';
 // import TheContext from './components/useContextApi/TheContext';
 // import LoginSignup from './components/revison_React/login_signup';
@@ -166,10 +167,13 @@ export default function App() {
     // <h1 className="text-3xl font-bold underline">
     //   Hello world!
     // </h1>
+    
     <>
     {/* <ControlledForm/> */}
     {/* <FormUncontrolled/> */}
     <Stack/>
+  
+    {/* <Navbar/> */}
     {/* <UserForm/> */}
     {/* <DemoCarousel/> */}
     {/* <FormReact/>

@@ -1,8 +1,12 @@
-export const Heading1=(prop)=>{
-    const{title}=prop;
+
+import React from "react";
+export const Heading1=(prop)=>{//give React.memo(Heading)
+    console.log("hiiiii")
+    const{title="guest"}=prop;
     return(<h1>{title}</h1>
     )
 }
+
 
 export const Heading2=()=>{
     return(<h2>men's clothing</h2>

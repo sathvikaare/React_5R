@@ -2,7 +2,10 @@
 import React from "react";
 import {  NavLink } from "react-router-dom";
 import "./navbar.css";
-export default function NavBar(){
+import loggingComponent from "../Hoc_react/LoggingComponent";
+// import loggingComponent from "../Hoc_react/LoggingComponent";
+
+ function NavBar(){
     const LinkStyle={
         textDecoration:"none",
     }
@@ -44,3 +47,4 @@ export default function NavBar(){
     )
 
 }
+export default loggingComponent(NavBar);
