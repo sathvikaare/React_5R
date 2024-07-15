@@ -1,9 +1,9 @@
+import './App.css';
+import ReactMemoApp from './components/revison_React/ReactMemoex2';
 // import logo from './logo.svg';
 // import { AppBar } from '@mui/material';
 // import { Stack } from 'react-bootstrap';
-
-import './App.css';
-import Navbar from './components/navBar/navbar';
+// import Navbar from './components/navBar/navbar';
 // import Reducerbooking from './components/useReducer_hook/useReducer_booking';
 // import TheContext from './components/useContextApi/TheContext';
 // import LoginSignup from './components/revison_React/login_signup';
@@ -141,7 +141,7 @@ import Navbar from './components/navBar/navbar';
 // export default App;
 
 // function App(){
- 
+
 //   return(
 //     <>
 //     <Counter1/>
@@ -153,7 +153,10 @@ import Navbar from './components/navBar/navbar';
 //   );
 // }
 
-import Stack from './Navigations/stack';
+// import Stack from './Navigations/stack';
+
+
+
 // import UseEffectExample2 from './useEffect/use_effect2';
 // import UserForm from './form_Table/formreact';
 // import TableReact from './React_BootStrap/Bootstrap_Tbale';
@@ -161,18 +164,19 @@ import Stack from './Navigations/stack';
 // import FormReact from './React_BootStrap/form_table';
 // import DigitalClock from './components/revison_React/DigitalClock';
 // import WhetherApp from './components/revison_React/WhetherApp';
- 
+
 export default function App() {
   return (
     // <h1 className="text-3xl font-bold underline">
     //   Hello world!
     // </h1>
-    
+
     <>
     {/* <ControlledForm/> */}
     {/* <FormUncontrolled/> */}
-    <Stack/>
-  
+    {/* <Stack/> */}
+    <ReactMemoApp/>
+
     {/* <Navbar/> */}
     {/* <UserForm/> */}
     {/* <DemoCarousel/> */}
@@ -184,9 +188,6 @@ export default function App() {
     {/* <DigitalClock/> */}
     {/* <WhetherApp/> */}
      {/* <LoginSignup/> */}
-   
-
-    
    {/* context api example */}
    {/* <TheContext/> */}
 {/* <Reducerbooking/> */}
