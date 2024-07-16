@@ -1,4 +1,6 @@
 import './App.css';
+import CounterExample from './components/CustomHooks/counterExample';
+import DataFetch from './components/CustomHooks/dataFetchExample';
 import ReactMemoApp from './components/revison_React/ReactMemoex2';
 // import logo from './logo.svg';
 // import { AppBar } from '@mui/material';
@@ -175,8 +177,9 @@ export default function App() {
     {/* <ControlledForm/> */}
     {/* <FormUncontrolled/> */}
     {/* <Stack/> */}
-    <ReactMemoApp/>
-
+    {/* <ReactMemoApp/> */}
+  <CounterExample/>
+<DataFetch/>
     {/* <Navbar/> */}
     {/* <UserForm/> */}
     {/* <DemoCarousel/> */}
