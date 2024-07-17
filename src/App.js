@@ -196,8 +196,8 @@ export default function App() {
    {/* context api example */}
    {/* <TheContext/> */}
 {/* <Reducerbooking/> */}
-{/* <IndiaDataFetch/> */}
-<RecepiesApp/>
+<IndiaDataFetch/>
+{/* <RecepiesApp/> */}
 {/* <ReactMemoEx/> */}
    
     </>
