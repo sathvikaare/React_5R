@@ -1,7 +1,9 @@
 import './App.css';
 import CounterExample from './components/CustomHooks/counterExample';
 import DataFetch from './components/CustomHooks/dataFetchExample';
-import ReactMemoApp from './components/revison_React/ReactMemoex2';
+import ReactMemoEx from './components/reactMemo';
+import RecepiesApp from './components/ReactPojects/RecepieApp';
+import IndiaDataFetch from './components/revison_React/indiaInfo';
 // import logo from './logo.svg';
 // import { AppBar } from '@mui/material';
 // import { Stack } from 'react-bootstrap';
@@ -178,8 +180,8 @@ export default function App() {
     {/* <FormUncontrolled/> */}
     {/* <Stack/> */}
     {/* <ReactMemoApp/> */}
-  <CounterExample/>
-<DataFetch/>
+  {/* <CounterExample/> */}
+{/* <DataFetch/> */}
     {/* <Navbar/> */}
     {/* <UserForm/> */}
     {/* <DemoCarousel/> */}
@@ -194,6 +196,9 @@ export default function App() {
    {/* context api example */}
    {/* <TheContext/> */}
 {/* <Reducerbooking/> */}
+{/* <IndiaDataFetch/> */}
+<RecepiesApp/>
+{/* <ReactMemoEx/> */}
    
     </>
   )
