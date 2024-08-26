@@ -20,7 +20,6 @@ import loggingComponent from "../Hoc_react/LoggingComponent";
         {/* <a className="nav-link active" href="#">
           Home
         </a> */}
-        <NavLink to={"/"} style={LinkStyle}>Home</NavLink>
       </li>
       <li className="nav-item" style={ListStyle}>
         {/* <a className="nav-link" href="#">

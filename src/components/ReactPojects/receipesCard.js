@@ -2,6 +2,7 @@ import React from 'react'
 
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import { NavLink } from 'react-router-dom';
 
 function ReceipeCard(props) {
     const {data}=props;
@@ -15,6 +16,7 @@ function ReceipeCard(props) {
       Calories : {data.caloriesPerServing}
       </Card.Text>
       <Button variant="danger">Buy Now</Button>
+      <NavLink to="/recepie">view more</NavLink>
     </Card.Body>
   </Card>
 

@@ -1,9 +1,23 @@
 import './App.css';
+import SearchUser from './components/Batch_c_Tasks.js/searchFunctionality';
+import ParentClassEx from './components/classComponent/parentClass';
+import SearchCountry from './components/countryDetails/countrysearch';
+import Countriestack from './components/countryDetails/stackcounties';
 import CounterExample from './components/CustomHooks/counterExample';
 import DataFetch from './components/CustomHooks/dataFetchExample';
 import ReactMemoEx from './components/reactMemo';
 import RecepiesApp from './components/ReactPojects/RecepieApp';
+import RecepieSearchData from './components/recepiesApp/RecipeSearchData';
+import RecepieStack from './components/recepiesApp/recepieStack';
+import FakeStoreFetch from './components/revison_React/fakestoreTable';
 import IndiaDataFetch from './components/revison_React/indiaInfo';
+import CatDataFetch from './components/revison_React/randomCat';
+import WhetherApp from './components/revison_React/WhetherApp';
+import CurrencyConverter from './components/countryDetails/currencyconverter';
+import TaskManagement from './components/recepiesApp/TaskManagement';
+import { Pagination } from 'react-bootstrap';
+import PaginationCom from './components/Batch_c_Tasks.js/pagination';
+import OddEven from './components/oddEven';
 // import logo from './logo.svg';
 // import { AppBar } from '@mui/material';
 // import { Stack } from 'react-bootstrap';
@@ -196,10 +210,21 @@ export default function App() {
    {/* context api example */}
    {/* <TheContext/> */}
 {/* <Reducerbooking/> */}
-<IndiaDataFetch/>
+{/* <IndiaDataFetch/> */}
 {/* <RecepiesApp/> */}
 {/* <ReactMemoEx/> */}
-   
+{/* <CatDataFetch/> */}
+   {/* <FakeStoreFetch/> */}
+{/* <ParentClassEx/> */}
+{/* <SearchCountry/> */}
+{/* <WhetherApp/> */}
+{/* <Countriestack/>  */}
+{/* <PaginationCom/> */}
+   {/* <SearchUser/> */}
+   {/* <RecepieSearchData/> */}
+ {/* <RecepieStack/> */}
+ {/* <CurrencyConverter/> */}
+ <OddEven/>
     </>
   )
 }

@@ -59,7 +59,6 @@ const IndiaDataFetch = () => {
                 <h2>country Flag:{selectedCountryData.flag}</h2>
                 </>)
             }
-
     </div>
   )
 }

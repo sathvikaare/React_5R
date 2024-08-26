@@ -13,7 +13,6 @@ render() {
 
 
 
-
 class App1 extends React.Component {
     state = { display: true };
     delete = () => {

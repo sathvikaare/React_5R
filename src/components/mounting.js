@@ -34,8 +34,6 @@ class MountingPhase extends Component{
 
     }
 
-    
-
     render(){
         console.log("render exec");
         return(
